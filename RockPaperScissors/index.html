@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>RPS-The Game</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div style="height: 100vh">
+    <div style="container-fluid">
+      <h1>Rock Paper Scissors</h1>
+
+      <div class="scoreboard">
+        <div class="scores">
+          <span id="userScore">0</span><span>:</span><span id="compScore">0</span>
+        </div> 
+        <p class="userLabel">user</p>
+        <p class="compLabel">comp</p>
+      </div>
+
+      <p id="result">...</p>
+
+      <div class="playbox">
+        <div id="left" class="leftImg">
+            <img id="leftImg" src="img/images/rockL.png" alt="" class="imgLeft img-responsive">          
+        </div>
+        <div id="right" class="rightImg">
+            <img id="rightImg" src="img/images/rockR.png" alt="" class="imgRight img-responsive">
+            <div class="rightOverlay"></div>
+        </div>
+        
+      </div>
+
+      <p class="instruct">Tap on left image to select your move</p>
+
+      <div class="btnDiv">
+          <p id="runBtn" class="waves-effect">Strike</p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+<!-- Avatarable Codes-->
+</html>
